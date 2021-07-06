@@ -1,35 +1,57 @@
 @import "mixins";
 
-.text-center{
 
+body{
+  background-color: #85AD91;
+  margin: 0;
 }
+
+
 // Navbar styles
 .navBar{
-    // background-color:$azul
+    position: relative;
+    z-index: 99;
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-around;
+    height: 0px;
+    top: 10px;
     .bloco-meio-navbar{
       align-items: center;
+      margin-left: 10%;
 
       a{
         margin: 9px;
+        color: #FCEC52;
+        font-size: 22px;
         font-family: $ptsans;
         text-decoration: none;
       }
     }
+
+    .bloco-direita-navbar{
+      a{
+        margin: 5px;
+      }
+    }
+
+    img{
+      margin-left: 11px;
+    }
 }
 
 // fullbaner Styles
+.fullbanner{
 
-.text-fullBanner{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: $playfair;
-    
+  .text-fullBanner{
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: $playfair;
+      color: #ADE25D;
+      h1{font-size: 26px}; h2{font-size: 33px};
+      
+  }
 }
-
 
 
 
@@ -39,7 +61,7 @@
   height: 800px;
 
   .fullBanner-slide1{
-    background-image: url(/src/images/banner-img.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/banner-img.jpg);
     background-size: cover;
     background-position: center;
 

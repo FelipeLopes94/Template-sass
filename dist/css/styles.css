@@ -1,26 +1,46 @@
 .text-center {
   text-align: center; }
 
+body {
+  background-color: #85AD91;
+  margin: 0; }
+
 .navBar {
+  position: relative;
+  z-index: 99;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-around;
+  height: 0px;
+  top: 10px; }
   .navBar .bloco-meio-navbar {
-    align-items: center; }
+    align-items: center;
+    margin-left: 10%; }
     .navBar .bloco-meio-navbar a {
       margin: 9px;
+      color: #FCEC52;
+      font-size: 22px;
       font-family: "PT Sans", sans-serif;
       text-decoration: none; }
+  .navBar .bloco-direita-navbar a {
+    margin: 5px; }
+  .navBar img {
+    margin-left: 11px; }
 
-.text-fullBanner {
+.fullbanner .text-fullBanner {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-  font-family: "Playfair Display", serif; }
+  font-family: "Playfair Display", serif;
+  color: #ADE25D; }
+  .fullbanner .text-fullBanner h1 {
+    font-size: 26px; }
+  .fullbanner .text-fullBanner h2 {
+    font-size: 33px; }
 
 .swiper-container {
   width: 100%px;
   height: 800px; }
   .swiper-container .fullBanner-slide1 {
-    background-image: url(/src/images/banner-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/banner-img.jpg);
     background-size: cover;
     background-position: center; }
