@@ -1,9 +1,48 @@
-@import "colors";
+@import "mixins";
 
-// body {
-//   background-color : $rosa;
-// }
+.text-center{
 
+}
+// Navbar styles
 .navBar{
-    background-color:$azul
+    // background-color:$azul
+    display: flex;
+    justify-content: space-between;
+    
+    .bloco-meio-navbar{
+      align-items: center;
+
+      a{
+        margin: 9px;
+        font-family: $ptsans;
+        text-decoration: none;
+      }
+    }
+}
+
+// fullbaner Styles
+
+.text-fullBanner{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: $playfair;
+    
+}
+
+
+
+
+// Estilos Swiper
+.swiper-container {
+  width: 100%px;
+  height: 800px;
+
+  .fullBanner-slide1{
+    background-image: url(/src/images/banner-img.jpg);
+    background-size: cover;
+    background-position: center;
+
+  }
+
 }

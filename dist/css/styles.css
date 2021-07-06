@@ -1,2 +1,26 @@
+.text-center {
+  text-align: center; }
+
 .navBar {
-  background-color: blue; }
+  display: flex;
+  justify-content: space-between; }
+  .navBar .bloco-meio-navbar {
+    align-items: center; }
+    .navBar .bloco-meio-navbar a {
+      margin: 9px;
+      font-family: "PT Sans", sans-serif;
+      text-decoration: none; }
+
+.text-fullBanner {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "Playfair Display", serif; }
+
+.swiper-container {
+  width: 100%px;
+  height: 800px; }
+  .swiper-container .fullBanner-slide1 {
+    background-image: url(/src/images/banner-img.jpg);
+    background-size: cover;
+    background-position: center; }

@@ -1,25 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- StyleSheets -->
     <link rel="stylesheet" href="../dist/css/styles.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    
+    <title>Projeto VNDA</title>
+
 </head>
 
-<header>
-    <nav class="navBar">
-        teste
-    </nav>
-    Projeto VNDA
-
-
-</header>
-
 <body>
+    <!-- Header Section -->
+    <header>
 
-    <section>corpo</section>
+        <nav class="navBar">
+
+            <img class="logo-navbar" src="./images/icon-nav.png" alt="Logo">
+    
+            <div class="bloco-meio-navbar">
+                <a href="">Secao 1</a>
+                <a href="">Secao 2</a>
+                <a href="">Secao 3</a>
+            </div>
+    
+            <div class="bloco-direita-navbar">
+                <a href="">i</a>
+                <a href="">i</a>
+                <a href="">i</a>
+            </div>
+        </nav>
+        
+        <section class="fullbanner">
+
+            <div class="swiper-container mySwiper">
+
+                <div class="swiper-wrapper">
+
+                  <div class="swiper-slide fullBanner-slide1">
+
+                    <div class="text-fullBanner text-center">
+
+                        <h3>Vamos falar de conscientizacao?</h1>
+                        <h1>a natureza e importante, alem e bela!</h3>
+    
+                    </div>
+
+                    </div>
+
+                  <div class="swiper-slide">Slide 2</div>
+                  <div class="swiper-slide">Slide 3</div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </section>
+        
+    </header>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/scripts.js"></script>
+
 </body>
 
 </html>
