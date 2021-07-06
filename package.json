@@ -1,0 +1,27 @@
+{
+  "name": "vnda-challenge",
+  "version": "1.0.0",
+  "description": "Projeto VNDA",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeLopes94/VNDA-Challenge.git"
+  },
+  "author": "Felipe Lopes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeLopes94/VNDA-Challenge/issues"
+  },
+  "homepage": "https://github.com/FelipeLopes94/VNDA-Challenge#readme",
+  "keywords": [],
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-watch": "^5.0.1",
+    "node-sass": "^6.0.1",
+    "sass": "^1.35.1"
+  }
+}
