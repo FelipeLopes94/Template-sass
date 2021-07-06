@@ -5,4 +5,6 @@
 
 ## Folhas de estilo do projeto feitas em sass, com arquivos de cores separado referenciados por variaveis;
 
-## Compile do Sass feito com tasks de gulp
+## Compilacao do Sass feito com tasks de gulp
+
+## Para os slider, foi utlilizado o "Swiper", referenciado no link => https://swiperjs.com/get-started
