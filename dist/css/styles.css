@@ -1,13 +1,27 @@
-.text-center {
-  text-align: center; }
+.text-default {
+  text-align: center;
+  font-family: "PT Sans", sans-serif; }
 
 .btn-default {
   cursor: pointer;
   background-color: green;
   padding: 13px;
-  border-radius: 10px;
+  width: 150px;
   color: white;
-  box-shadow: 3px 4px 10px 4px #000000b3; }
+  box-shadow: 3px 4px 10px 4px #000000b3;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px; }
+
+.btn-default-2 {
+  cursor: pointer;
+  padding: 13px;
+  width: 150px;
+  color: black;
+  border: 2.5px solid black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px; }
+  .btn-default-2:hover {
+    box-shadow: 3px 4px 10px 4px #000000b3; }
 
 html, body {
   margin: 0; }
@@ -111,7 +125,8 @@ html, body {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start; }
+    align-items: flex-start;
+    margin-top: 5%; }
     .section-info-2 .text-info p {
       text-align: left;
       font-size: 23px; }
@@ -129,6 +144,29 @@ html, body {
     overflow: hidden;
     height: 65vh; }
 
+.section-info-cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4%; }
+  .section-info-cards .container-info-cards {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around; }
+  .section-info-cards .info-card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .section-info-cards .info-card img {
+      width: 75%; }
+
 .swiper-container {
   width: 100%;
   height: 800px; }
@@ -141,10 +179,12 @@ html, body {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px; }
+  .swiper-container2 .swiper-wrapper {
+    right: 10%; }
   .swiper-container2 .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 57%; }
+    width: 60%; }
   .swiper-container2 .swiper-slide img {
     display: block;
     width: 100%;

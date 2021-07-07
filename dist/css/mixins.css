@@ -1,10 +1,24 @@
-.text-center {
-  text-align: center; }
+.text-default {
+  text-align: center;
+  font-family: "PT Sans", sans-serif; }
 
 .btn-default {
   cursor: pointer;
   background-color: green;
   padding: 13px;
-  border-radius: 10px;
+  width: 150px;
   color: white;
-  box-shadow: 3px 4px 10px 4px #000000b3; }
+  box-shadow: 3px 4px 10px 4px #000000b3;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px; }
+
+.btn-default-2 {
+  cursor: pointer;
+  padding: 13px;
+  width: 150px;
+  color: black;
+  border: 2.5px solid black;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px; }
+  .btn-default-2:hover {
+    box-shadow: 3px 4px 10px 4px #000000b3; }

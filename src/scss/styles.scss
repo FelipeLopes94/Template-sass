@@ -35,8 +35,10 @@ html, body{ margin: 0}
 }
 
 // fullbaner Styles
+
 .fullbanner{
   height: 100vh;
+
   .text-fullBanner{
       position: relative;
       top: 50%;
@@ -52,7 +54,7 @@ html, body{ margin: 0}
   }
 }
 
-// Section Info
+// Section Info 1 //
 
 .section-info-1{
     display: flex;
@@ -126,6 +128,7 @@ html, body{ margin: 0}
   }
 }
 
+// Section Info 2 styles //
 
 .section-info-2{
 
@@ -144,6 +147,7 @@ html, body{ margin: 0}
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-top: 5%;
 
     p{
       text-align: left;
@@ -172,7 +176,39 @@ html, body{ margin: 0}
 }
 
 
-// Estilos Swiper
+.section-info-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 4%;
+    .container-info-cards{
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      align-content: space-around;
+  
+    }
+  .info-card{
+
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img{
+      width: 75%;
+    }
+  }
+
+}
+
+// Estilos Swiper sliders //
+
 .swiper-container {
   width: 100%;
   height: 800px;
@@ -191,10 +227,14 @@ html, body{ margin: 0}
   padding-top: 50px;
   padding-bottom: 50px;
 
+  .swiper-wrapper {
+    right: 10%;  
+  }
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
-    width: 57%;
+    width: 60%;
   }
 
   .swiper-slide img {
@@ -213,7 +253,7 @@ html, body{ margin: 0}
   margin-left: -150px;
   margin-top: -150px;
 
-  
+
   .swiper-slide {
     background-position: center;
     background-size: cover;
