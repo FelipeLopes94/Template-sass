@@ -19,12 +19,15 @@
   color: black;
   border: 2.5px solid black;
   font-family: "PT Sans", sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  background-color: #c3e9cfd3; }
   .btn-default-2:hover {
-    box-shadow: 3px 4px 10px 4px #000000b3; }
+    box-shadow: 3px 4px 10px 4px #000000b3;
+    background-color: #b3e6c3d3; }
 
 html, body {
-  margin: 0; }
+  margin: 0;
+  background-color: #c8e7d2d3; }
 
 .navBar {
   position: relative;
@@ -165,7 +168,9 @@ html, body {
     align-items: center;
     justify-content: center; }
     .section-info-cards .info-card img {
-      width: 75%; }
+      width: 75%;
+      height: 350px;
+      border-radius: 5px; }
 
 .section-text-mid {
   display: flex;
@@ -176,6 +181,36 @@ html, body {
     text-align: center;
     font-family: "PT Sans", sans-serif;
     font-size: 25px; }
+
+.section-text-image-2 {
+  display: flex;
+  background-color: #85ad91; }
+  .section-text-image-2 p {
+    text-align: left;
+    font-size: 23px;
+    color: white; }
+  .section-text-image-2 h2 {
+    color: white; }
+  .section-text-image-2 .bloco-txt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%; }
+    .section-text-image-2 .bloco-txt div {
+      margin-left: 10%;
+      width: 40%;
+      padding: 15px;
+      flex: 3 5 430px; }
+  .section-text-image-2 .bloco-img {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden; }
+    .section-text-image-2 .bloco-img img {
+      width: 50%; }
 
 .swiper-container {
   width: 100%;
@@ -198,7 +233,8 @@ html, body {
   .swiper-container2 .swiper-slide img {
     display: block;
     width: 100%;
-    border-radius: 10px; }
+    border-radius: 10px;
+    box-shadow: 11px -6px 16px; }
 
 .swiper-container3 {
   width: 300px;

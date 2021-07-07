@@ -19,6 +19,8 @@
   color: black;
   border: 2.5px solid black;
   font-family: "PT Sans", sans-serif;
-  font-size: 15px; }
+  font-size: 15px;
+  background-color: #c3e9cfd3; }
   .btn-default-2:hover {
-    box-shadow: 3px 4px 10px 4px #000000b3; }
+    box-shadow: 3px 4px 10px 4px #000000b3;
+    background-color: #b3e6c3d3; }

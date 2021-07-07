@@ -38,9 +38,11 @@ $playfair: 'Playfair Display', serif;
     border: 2.5px solid black;
     font-family: $ptsans;
     font-size: 15px;
+    background-color: #c3e9cfd3;
 
     &:hover{
         box-shadow: 3px 4px 10px 4px #000000b3;
+        background-color: #b3e6c3d3;
 
     }
 }

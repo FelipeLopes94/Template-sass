@@ -1,6 +1,6 @@
 @import "mixins";
 
-html, body{ margin: 0}
+html, body{ margin: 0; background-color: #c8e7d2d3;}
 
 // Navbar styles
 .navBar{
@@ -202,6 +202,8 @@ html, body{ margin: 0}
 
     img{
       width: 75%;
+      height: 350px;
+      border-radius: 5px;
     }
   }
 
@@ -220,6 +222,50 @@ html, body{ margin: 0}
   }
 }
 
+
+.section-text-image-2{
+
+    display: flex;
+    background-color: #85ad91;
+    p{
+      text-align: left;
+      font-size: 23px;
+      color: white;
+    }
+    
+    h2{
+      color: white;
+    }
+
+  .bloco-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+
+    div{
+      margin-left: 10%;
+      width: 40%;
+      padding: 15px;
+      flex: 3 5 430px;
+    }
+  }
+
+  .bloco-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+
+    img{
+      width: 50%;
+    }
+
+  }
+}
 // Estilos Swiper sliders //
 
 .swiper-container {
@@ -254,6 +300,7 @@ html, body{ margin: 0}
     display: block;
     width: 100%;
     border-radius: 10px;
+    box-shadow: 11px -6px 16px;
   }
 }
 
