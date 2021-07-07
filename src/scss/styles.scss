@@ -207,6 +207,19 @@ html, body{ margin: 0}
 
 }
 
+.section-text-mid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+
+  h3{
+    text-align: center;
+    font-family: $ptsans;
+    font-size: 25px;
+  }
+}
+
 // Estilos Swiper sliders //
 
 .swiper-container {
