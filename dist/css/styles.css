@@ -25,16 +25,20 @@ html, body {
   .navBar img {
     margin-left: 11px; }
 
-.fullbanner .text-fullBanner {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: "Playfair Display", serif;
-  color: #ECF39E; }
-  .fullbanner .text-fullBanner h1 {
-    font-size: 26px; }
-  .fullbanner .text-fullBanner h2 {
-    font-size: 33px; }
+.fullbanner {
+  height: 100vh; }
+  .fullbanner .text-fullBanner {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: "Playfair Display", serif;
+    color: #ECF39E; }
+    .fullbanner .text-fullBanner h1 {
+      font-size: 26px; }
+    .fullbanner .text-fullBanner h2 {
+      font-size: 33px; }
+  .fullbanner .swiper-container {
+    height: 100vh; }
 
 .section-info-1 {
   display: flex;
@@ -113,7 +117,9 @@ html, body {
     display: flex;
     justify-content: center;
     position: relative;
-    margin: 0 auto; }
+    margin: 0 auto;
+    overflow: hidden;
+    height: 65vh; }
     .section-info-2 .image-info .img-info1 {
       width: 100%;
       border-radius: 21px;
@@ -134,3 +140,20 @@ html, body {
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.swiper-container3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px; }
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover; }
+
+.swiper-slide img {
+  display: block;
+  width: 100%; }

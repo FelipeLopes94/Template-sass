@@ -38,7 +38,7 @@ html, body{ margin: 0}
 
 // fullbaner Styles
 .fullbanner{
-
+  height: 100vh;
   .text-fullBanner{
       position: relative;
       top: 50%;
@@ -47,6 +47,10 @@ html, body{ margin: 0}
       color: #ECF39E;
       h1{font-size: 26px}; h2{font-size: 33px};
       
+  }
+
+  .swiper-container{
+    height: 100vh;
   }
 }
 
@@ -161,6 +165,8 @@ html, body{ margin: 0}
     justify-content: center;
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
+    height: 65vh;
 
     .img-info1{
       width: 100%;
@@ -208,3 +214,23 @@ html, body{ margin: 0}
 //   display: block;
 //   width: 100%;
 // }
+
+.swiper-container3 {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
