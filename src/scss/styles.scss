@@ -1,10 +1,7 @@
 @import "mixins";
 
+html, body{ margin: 0}
 
-body{
-  background-color: #85AD91;
-  margin: 0;
-}
 
 
 // Navbar styles
@@ -21,7 +18,7 @@ body{
 
       a{
         margin: 9px;
-        color: #FCEC52;
+        color: #ECF39E;
         font-size: 22px;
         font-family: $ptsans;
         text-decoration: none;
@@ -47,12 +44,68 @@ body{
       top: 50%;
       transform: translateY(-50%);
       font-family: $playfair;
-      color: #ADE25D;
+      color: #ECF39E;
       h1{font-size: 26px}; h2{font-size: 33px};
       
   }
 }
 
+// Section Info
+
+.section-info{
+    display: flex;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+
+    .text-info{
+
+      background-color: #90A955;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+
+      p{
+        text-align: left;
+        font-size: 23px;
+      }
+      div{
+        margin-left: 2%;
+        width: 65%;
+        padding: 15px;
+      }
+    }
+
+
+    .image-info{
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      margin: 0 auto;
+
+      .img-hand{
+        width: 50%;
+        border-radius: 21px;
+        margin-left: 25%;
+        z-index: 9;
+
+        }
+      
+      .img-folhas{
+        width: 48%;
+        border-radius: 46px;
+        position: absolute;
+        top: 191px;
+        right: 0;
+      }
+    }
+    
+}
 
 
 // Estilos Swiper
@@ -61,7 +114,7 @@ body{
   height: 800px;
 
   .fullBanner-slide1{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/banner-img.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/images/banner-img.jpg);
     background-size: cover;
     background-position: center;
 

@@ -1,10 +1,15 @@
 
-## Projeto de desafio VNDA
+##  Projeto de desafio VNDA
 
-## Npm start para rodar o projeto;
+##  para visualizar a pagina, basta abrir o arquivo "index.html", localizado na pasta "src"
 
-## Folhas de estilo do projeto feitas em sass, com arquivos de cores separado referenciados por variaveis;
+##  Necessario ter o Node instalado na maquina para rodar aplataforma de desenvolvimento.
 
-## Compilacao do Sass feito com tasks de gulp
+##  Para rodar a plataforma de desenvolvimento, abrir o terminal da maquina, e rodar o comando, "npm install", apos, rodar "npm install -g gulp", 
+    para instalar o gulp, necessario para compilar o sass 
 
-## Para os slider, foi utlilizado o "Swiper", referenciado no link => https://swiperjs.com/get-started
+##  Folhas de estilo do projeto feitas em sass, com arquivos de cores separado referenciados por variaveis;
+
+##  Compilacao do Sass feito com tasks de gulp
+
+##  Para os slider, foi utlilizado o "Swiper", referenciado no link => https://swiperjs.com/get-started

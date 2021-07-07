@@ -1,8 +1,7 @@
 .text-center {
   text-align: center; }
 
-body {
-  background-color: #85AD91;
+html, body {
   margin: 0; }
 
 .navBar {
@@ -17,7 +16,7 @@ body {
     margin-left: 10%; }
     .navBar .bloco-meio-navbar a {
       margin: 9px;
-      color: #FCEC52;
+      color: #ECF39E;
       font-size: 22px;
       font-family: "PT Sans", sans-serif;
       text-decoration: none; }
@@ -31,16 +30,55 @@ body {
   top: 50%;
   transform: translateY(-50%);
   font-family: "Playfair Display", serif;
-  color: #ADE25D; }
+  color: #ECF39E; }
   .fullbanner .text-fullBanner h1 {
     font-size: 26px; }
   .fullbanner .text-fullBanner h2 {
     font-size: 33px; }
 
+.section-info {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%; }
+  .section-info .text-info {
+    background-color: #90A955;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .section-info .text-info p {
+      text-align: left;
+      font-size: 23px; }
+    .section-info .text-info div {
+      margin-left: 2%;
+      width: 65%;
+      padding: 15px; }
+  .section-info .image-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto; }
+    .section-info .image-info .img-hand {
+      width: 50%;
+      border-radius: 21px;
+      margin-left: 25%;
+      z-index: 9; }
+    .section-info .image-info .img-folhas {
+      width: 48%;
+      border-radius: 46px;
+      position: absolute;
+      top: 191px;
+      right: 0; }
+
 .swiper-container {
   width: 100%px;
   height: 800px; }
   .swiper-container .fullBanner-slide1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/src/images/banner-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/images/banner-img.jpg);
     background-size: cover;
     background-position: center; }
