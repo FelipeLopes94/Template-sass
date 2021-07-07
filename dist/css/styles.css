@@ -36,7 +36,7 @@ html, body {
   .fullbanner .text-fullBanner h2 {
     font-size: 33px; }
 
-.section-info {
+.section-info-1 {
   display: flex;
   align-content: center;
   flex-wrap: nowrap;
@@ -44,42 +44,93 @@ html, body {
   justify-content: space-between;
   align-items: flex-start;
   height: 100%; }
-  .section-info .text-info {
+  .section-info-1 .text-info {
     background-color: #90A955;
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start; }
-    .section-info .text-info p {
+    .section-info-1 .text-info p {
       text-align: left;
       font-size: 23px; }
-    .section-info .text-info div {
+    .section-info-1 .text-info div {
       margin-left: 10%;
       width: 40%;
       padding: 15px;
       flex: 3 5 430px; }
-  .section-info .image-info {
+  .section-info-1 .image-info {
     width: 50%;
     display: flex;
     justify-content: center;
     position: relative;
     margin: 0 auto; }
-    .section-info .image-info .img-hand {
-      width: 50%;
+    .section-info-1 .image-info .img-info1 {
+      width: 52%;
       border-radius: 21px;
       margin-left: 25%;
       z-index: 9; }
-    .section-info .image-info .img-folhas {
-      width: 48%;
+    .section-info-1 .image-info .img-info2 {
+      width: 60%;
       border-radius: 46px;
       position: absolute;
       top: 191px;
       right: 0; }
 
+.section-img-info3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 110px; }
+  .section-img-info3 .img-info3 {
+    width: 30%;
+    border-radius: 12px;
+    height: 400px; }
+
+.section-info-2 {
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100%; }
+  .section-info-2 .text-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; }
+    .section-info-2 .text-info p {
+      text-align: left;
+      font-size: 23px; }
+    .section-info-2 .text-info div {
+      margin-left: 10%;
+      width: 40%;
+      padding: 15px;
+      flex: 3 5 430px; }
+  .section-info-2 .image-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto; }
+    .section-info-2 .image-info .img-info1 {
+      width: 100%;
+      border-radius: 21px;
+      /* margin-left: 10%; */
+      z-index: 9;
+      position: relative;
+      bottom: 195px; }
+
 .swiper-container {
-  width: 100%px;
+  width: 100%;
   height: 800px; }
   .swiper-container .fullBanner-slide1 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../src/images/banner-img.jpg);
     background-size: cover;
     background-position: center; }
+
+.swiper-container2 {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px; }
