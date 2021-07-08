@@ -144,8 +144,7 @@ html, body {
     justify-content: center;
     position: relative;
     margin: 0 auto;
-    overflow: hidden;
-    height: 65vh; }
+    overflow: hidden; }
 
 .section-text-mid {
   display: flex;
@@ -194,11 +193,10 @@ html, body {
   flex-wrap: wrap;
   align-items: center; }
   .section-info-cards img {
-    width: 90%; }
+    width: 80%;
+    height: 360px; }
   .section-info-cards .info-card {
     flex: 1 1 260px;
-    padding: 20px;
-    margin: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
