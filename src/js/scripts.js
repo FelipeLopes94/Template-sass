@@ -1,3 +1,8 @@
+const titulo = document.querySelector('h1');
+const btnMobile = document.getElementById('btn-mobile');
+
+// ** -- Funcoes do Swiper -- ** //
+
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 1,
     spaceBetween: 30,
@@ -52,7 +57,8 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
-const btnMobile = document.getElementById('btn-mobile');
+
+  // **-- Funcoes da na navbar -- ** //
 
 function toggleMenu(event) {
 
@@ -76,3 +82,15 @@ function toggleMenu(event) {
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+
+// ** -- funcao para o efeito de digitacao nos textos -- ** //
+
+function txtInputEffect(elemento) {
+  const textoArray = elemento.innerHTML.split('');
+  elemento.innerHTML = '';
+  textoArray.forEach((letra, i) => {
+    setTimeout(() => elemento.innerHTML += letra, 75 * i);
+  });
+}
+txtInputEffect(titulo);

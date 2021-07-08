@@ -1,17 +1,35 @@
 @import "mixins";
 @import "navBar-style.scss";
 
-html, body{ margin: 0; background-color: #c8e7d2d3;}
+html, body{ margin: 0; background-color: #c8e7d2d3; p{font-family: $ptsans;}}
 
 // Navbar styles
-#header {
-  box-sizing: border-box;
-  height: 70px;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background: #e7e7e7;
+header {
+
+  h1 {
+    max-width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    font-family: $playfair;
+    color: #fff;
+  }
+  
+
+  h1::after {
+    opacity: 1;
+    margin-left: 5px;
+    display: inline-block;
+    animation: blink .7s infinite;
+  }
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+  }
 }
 
 
