@@ -165,8 +165,17 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
 	flex-wrap: wrap;
 	align-items: center;
 
+  .container-info-cards{
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;  
+
+  }
   img{
-    width: 70%;
+    width: 95%;
     height: 360px;
   }
 
@@ -241,6 +250,7 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
       align-items: center;
       flex-direction: row;
       justify-content: center;
+      max-width: 1280px;
 
     }
     p{
@@ -258,7 +268,7 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
     display: flex;
 
     div{
-      padding: 22px 55px;
+      padding-right: 60px;
       flex: 3 5 430px;
     }
   }

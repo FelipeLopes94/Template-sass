@@ -213,8 +213,15 @@ html, body {
   display: flex;
   flex-wrap: wrap;
   align-items: center; }
+  .section-info-cards .container-info-cards {
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto; }
   .section-info-cards img {
-    width: 70%;
+    width: 95%;
     height: 360px; }
   .section-info-cards .info-card {
     flex: 1 1 260px;
@@ -259,7 +266,8 @@ html, body {
     flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
-    justify-content: center; }
+    justify-content: center;
+    max-width: 1280px; }
   .section-info-3 p {
     text-align: left;
     font-size: 23px;
@@ -270,7 +278,7 @@ html, body {
     width: 50%;
     display: flex; }
     .section-info-3 .bloco-txt div {
-      padding: 22px 55px;
+      padding-right: 60px;
       flex: 3 5 430px; }
   .section-info-3 .bloco-img {
     width: auto;
