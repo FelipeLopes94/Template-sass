@@ -112,8 +112,9 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
     
 }
 
-// Section img info 3
-.section-img-info3{
+// Section img Cube
+
+.section-img-cube{
   display: flex;
     align-items: center;
     justify-content: center;
@@ -141,7 +142,7 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
   height: 100%;
   margin-top: 4%;
 
-  .text-info{
+  .text-info-2{
 
     width: 50%;
     display: flex;
@@ -162,7 +163,7 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
     }
   }
 
-  .image-info{
+  .image-info-2{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -175,67 +176,7 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
 }
 
 
-.section-text-mid{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 4%;
-
-  h3{
-    text-align: center;
-    font-family: $ptsans;
-    font-size: 25px;
-  }
-}
-
-
-.section-text-image-2{
-
-    display: flex;
-    background-color: #85ad91;
-    p{
-      text-align: left;
-      font-size: 23px;
-      color: white;
-    }
-    
-    h2{
-      color: white;
-    }
-
-  .bloco-txt{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%;
-
-    div{
-      margin-left: 10%;
-      width: 40%;
-      padding: 15px;
-      flex: 3 5 430px;
-    }
-  }
-
-  .bloco-img{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
-
-    img{
-      width: 50%;
-    }
-
-  }
-}
-
-
-
-/*Preco*/
+/*Section Info Cards*/
 
 .section-info-cards {
 	padding: 5px;
@@ -284,6 +225,69 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
   }
   
 }
+
+// Section text Mid
+
+.section-text-mid{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4%;
+
+  h3{
+    text-align: center;
+    font-family: $ptsans;
+    font-size: 25px;
+  }
+}
+
+
+// Section text image 2
+
+.section-text-image-2{
+
+    display: flex;
+    background-color: #85ad91;
+    p{
+      text-align: left;
+      font-size: 23px;
+      color: white;
+    }
+    
+    h2{
+      color: white;
+    }
+
+  .bloco-txt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 5%;
+
+    div{
+      margin-left: 10%;
+      width: 40%;
+      padding: 15px;
+      flex: 3 5 430px;
+    }
+  }
+
+  .bloco-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+
+    img{
+      width: 50%;
+    }
+
+  }
+}
+
 
 /*Produtos*/
 

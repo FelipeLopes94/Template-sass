@@ -105,12 +105,12 @@ html, body {
       top: 191px;
       right: 0; }
 
-.section-img-info3 {
+.section-img-cube {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative; }
-  .section-img-info3 .img-info3 {
+  .section-img-cube .img-info3 {
     width: 30%;
     border-radius: 12px;
     height: 400px; }
@@ -124,27 +124,58 @@ html, body {
   align-items: flex-start;
   height: 100%;
   margin-top: 4%; }
-  .section-info-2 .text-info {
+  .section-info-2 .text-info-2 {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 5%; }
-    .section-info-2 .text-info p {
+    .section-info-2 .text-info-2 p {
       text-align: left;
       font-size: 23px; }
-    .section-info-2 .text-info div {
+    .section-info-2 .text-info-2 div {
       margin-left: 10%;
       width: 40%;
       padding: 15px;
       flex: 3 5 430px; }
-  .section-info-2 .image-info {
+  .section-info-2 .image-info-2 {
     width: 50%;
     display: flex;
     justify-content: center;
     position: relative;
     margin: 0 auto;
     overflow: hidden; }
+
+/*Section Info Cards*/
+.section-info-cards {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; }
+  .section-info-cards img {
+    width: 80%;
+    height: 360px; }
+  .section-info-cards .info-card {
+    flex: 1 1 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+  .section-info-cards .info-card h2 {
+    font-size: 22px;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 20px; }
+  .section-info-cards .info-card sup {
+    font-size: 1.5rem; }
+  @media (max-width: 800px) {
+    .section-info-cards .section-info-cards {
+      padding-left: 10px;
+      padding-right: 10px; }
+    .section-info-cards .section-info-cards .info-card:nth-child(3) {
+      order: -2; }
+    .section-info-cards .section-info-cards .info-card:nth-child(2) {
+      order: -1; } }
 
 .section-text-mid {
   display: flex;
@@ -185,37 +216,6 @@ html, body {
     overflow: hidden; }
     .section-text-image-2 .bloco-img img {
       width: 50%; }
-
-/*Preco*/
-.section-info-cards {
-  padding: 5px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center; }
-  .section-info-cards img {
-    width: 80%;
-    height: 360px; }
-  .section-info-cards .info-card {
-    flex: 1 1 260px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column; }
-  .section-info-cards .info-card h2 {
-    font-size: 22px;
-    color: #a4a4a4;
-    text-align: center;
-    margin-top: 20px; }
-  .section-info-cards .info-card sup {
-    font-size: 1.5rem; }
-  @media (max-width: 800px) {
-    .section-info-cards .section-info-cards {
-      padding-left: 10px;
-      padding-right: 10px; }
-    .section-info-cards .section-info-cards .info-card:nth-child(3) {
-      order: -2; }
-    .section-info-cards .section-info-cards .info-card:nth-child(2) {
-      order: -1; } }
 
 /*Produtos*/
 .section-tripple-images {
