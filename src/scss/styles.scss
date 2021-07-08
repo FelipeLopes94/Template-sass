@@ -10,11 +10,12 @@ header {
     max-width: 20%;
     text-align: center;
     margin: 0 auto;
-    font-family: $playfair;
     color: #fff;
+    font-size: 26px;
+    color: #ECF39E;
+
   }
   
-
   h1::after {
     opacity: 1;
     margin-left: 5px;
@@ -35,6 +36,7 @@ header {
 
 // fullbaner Styles
 
+
 .fullbanner{
   height: 100vh;
 
@@ -43,8 +45,6 @@ header {
       top: 50%;
       transform: translateY(-50%);
       font-family: $playfair;
-      color: #ECF39E;
-      h1{font-size: 26px}; h2{font-size: 33px};
       
   }
 
@@ -53,24 +53,22 @@ header {
   }
 }
 
+
 // Section Info 1 //
 
-.section-info-1{
-    display: flex;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100%;
 
-    .text-info{
+.section-info-1{
+
+  .container-info-1{
+    align-items: flex-start;
+  }
+    .txt-info-1{
 
       background-color: #90A955;
       width: 50%;
       display: flex;
       flex-direction: column;
-      align-items: flex-start;
+      align-items: center;
 
       p{
         text-align: left;
@@ -84,8 +82,7 @@ header {
       }
     }
 
-
-    .image-info{
+    .img-info-1{
       width: 50%;
       display: flex;
       justify-content: center;
@@ -95,20 +92,50 @@ header {
       .img-info1{
         width: 52%;
         border-radius: 21px;
-        margin-left: 25%;
         z-index: 9;
 
         }
       
       .img-info2{
-        width: 47%;
+        width: 40%;
         border-radius: 46px;
         position: absolute;
-        top: 191px;
+        top: 35%;
         right: 0;
       }
     }
-    
+
+    @media(max-width: 500px) {
+      .img-info-1{
+        width: 100% !important;
+      }
+
+    }
+    @media(max-width: 1200px) {
+
+      .container-info-1{
+        flex-direction: column;
+  
+        .txt-info-1{
+          width: auto;
+
+          div{
+            width: auto;
+            padding: 15px;
+            flex: none;
+            text-align: center;
+            margin: auto;
+          }
+          button{
+            margin-bottom: 5%;
+          }
+        }
+        .img-info-1{
+          width: 70%;
+          margin-top: 5%;
+        }
+      }
+    }
 }
 
 // Section img Cube
@@ -120,15 +147,25 @@ header {
     position: relative;
     // bottom: 110px;
 
-  .img-info3{
+  .imgs-cube{
     width: 30%;
     border-radius: 12px;
     height: 400px;
 
   }
+
+  @media (max-width: 1200px) {
+
+    .swiper-container3{
+      position: relative;
+      margin-top: 59%;
+    }
+  }
 }
 
+
 // Section Info 2 styles //
+
 
 .section-info-2{
 
@@ -141,7 +178,7 @@ header {
   height: 100%;
   margin-top: 4%;
 
-  .text-info-2{
+  .txt-info-2{
 
     width: 50%;
     display: flex;
@@ -162,7 +199,7 @@ header {
     }
   }
 
-  .image-info-2{
+  .img-info-2{
     width: 50%;
     display: flex;
     justify-content: center;
@@ -171,11 +208,39 @@ header {
     overflow: hidden;
   
   }
+
+  @media (max-width: 1200px) {
+
+    .container-info-2{
+      flex-direction: column;
+
+      .txt-info-2{
+        width: auto;
+
+        div{
+          width: auto;
+          padding: 15px;
+          flex: none;
+          text-align: center;
+          margin: auto;
+        }
+        button{
+          margin-bottom: 5%;
+        }
+      }
+
+      .img-info-2{
+        width: 100%;
+      
+      }
+    }
+  }
   
 }
 
 
 /*Section Info Cards*/
+
 
 .section-info-cards {
 	padding: 5px;
@@ -216,8 +281,6 @@ header {
     font-size: 1.5rem;
   }
   
-  
-  
   @media (max-width: 800px) {
     .section-info-cards {
       padding-left: 10px;
@@ -250,24 +313,14 @@ header {
 }
 
 
-// Section text image 2
+// Section Info 3
+
 
 .section-info-3{
 
     background-color: #85ad91;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  
 
     .container-info-3{
-
-      display: flex;
-      flex-wrap: wrap;
-      align-items: center;
-      flex-direction: row;
-      justify-content: center;
       max-width: 1280px;
 
     }
@@ -303,8 +356,6 @@ header {
         width: 100%;
       }
     }
-
-
   }
 
   @media (max-width: 1200px) {
@@ -315,6 +366,10 @@ header {
     .bloco-txt{
       width: auto;
       p, h2{text-align: center;}
+
+      div{
+        padding: 0;
+      }
     }
     .bloco-img{
 

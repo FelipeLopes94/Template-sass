@@ -22,8 +22,21 @@
   font-size: 15px;
   background-color: #c3e9cfd3; }
   .btn-default-2:hover {
-    box-shadow: 3px 4px 10px 4px #000000b3;
+    box-shadow: 3px 4px 10px 4px #776565b3;
     background-color: #b3e6c3d3; }
+
+.secao-2-elementos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.container-2-elementos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center; }
 
 .navbar {
   height: 0px;
@@ -108,8 +121,9 @@ header h1 {
   max-width: 20%;
   text-align: center;
   margin: 0 auto;
-  font-family: "Playfair Display", serif;
-  color: #fff; }
+  color: #fff;
+  font-size: 26px;
+  color: #ECF39E; }
 
 header h1::after {
   opacity: 1;
@@ -129,64 +143,79 @@ header h1::after {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    font-family: "Playfair Display", serif;
-    color: #ECF39E; }
-    .fullbanner .text-fullBanner h1 {
-      font-size: 26px; }
-    .fullbanner .text-fullBanner h2 {
-      font-size: 33px; }
+    font-family: "Playfair Display", serif; }
   .fullbanner .swiper-container {
     height: 100vh; }
 
-.section-info-1 {
+.section-info-1 .container-info-1 {
+  align-items: flex-start; }
+
+.section-info-1 .txt-info-1 {
+  background-color: #90A955;
+  width: 50%;
   display: flex;
-  align-content: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
-  height: 100%; }
-  .section-info-1 .text-info {
-    background-color: #90A955;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start; }
-    .section-info-1 .text-info p {
-      text-align: left;
-      font-size: 23px; }
-    .section-info-1 .text-info div {
-      margin-left: 10%;
-      width: 40%;
-      padding: 15px;
-      flex: 3 5 430px; }
-  .section-info-1 .image-info {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 0 auto; }
-    .section-info-1 .image-info .img-info1 {
-      width: 52%;
-      border-radius: 21px;
-      margin-left: 25%;
-      z-index: 9; }
-    .section-info-1 .image-info .img-info2 {
-      width: 47%;
-      border-radius: 46px;
-      position: absolute;
-      top: 191px;
-      right: 0; }
+  flex-direction: column;
+  align-items: center; }
+  .section-info-1 .txt-info-1 p {
+    text-align: left;
+    font-size: 23px; }
+  .section-info-1 .txt-info-1 div {
+    margin-left: 10%;
+    width: 40%;
+    padding: 15px;
+    flex: 3 5 430px; }
+
+.section-info-1 .img-info-1 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin: 0 auto; }
+  .section-info-1 .img-info-1 .img-info1 {
+    width: 52%;
+    border-radius: 21px;
+    z-index: 9; }
+  .section-info-1 .img-info-1 .img-info2 {
+    width: 40%;
+    border-radius: 46px;
+    position: absolute;
+    top: 35%;
+    right: 0; }
+
+@media (max-width: 500px) {
+  .section-info-1 .img-info-1 {
+    width: 100% !important; } }
+
+@media (max-width: 1200px) {
+  .section-info-1 .container-info-1 {
+    flex-direction: column; }
+    .section-info-1 .container-info-1 .txt-info-1 {
+      width: auto; }
+      .section-info-1 .container-info-1 .txt-info-1 div {
+        width: auto;
+        padding: 15px;
+        flex: none;
+        text-align: center;
+        margin: auto; }
+      .section-info-1 .container-info-1 .txt-info-1 button {
+        margin-bottom: 5%; }
+    .section-info-1 .container-info-1 .img-info-1 {
+      width: 70%;
+      margin-top: 5%; } }
 
 .section-img-cube {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative; }
-  .section-img-cube .img-info3 {
+  .section-img-cube .imgs-cube {
     width: 30%;
     border-radius: 12px;
     height: 400px; }
+  @media (max-width: 1200px) {
+    .section-img-cube .swiper-container3 {
+      position: relative;
+      margin-top: 59%; } }
 
 .section-info-2 {
   display: flex;
@@ -197,27 +226,42 @@ header h1::after {
   align-items: flex-start;
   height: 100%;
   margin-top: 4%; }
-  .section-info-2 .text-info-2 {
+  .section-info-2 .txt-info-2 {
     width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-top: 5%; }
-    .section-info-2 .text-info-2 p {
+    .section-info-2 .txt-info-2 p {
       text-align: left;
       font-size: 23px; }
-    .section-info-2 .text-info-2 div {
+    .section-info-2 .txt-info-2 div {
       margin-left: 10%;
       width: 40%;
       padding: 15px;
       flex: 3 5 430px; }
-  .section-info-2 .image-info-2 {
+  .section-info-2 .img-info-2 {
     width: 50%;
     display: flex;
     justify-content: center;
     position: relative;
     margin: 0 auto;
     overflow: hidden; }
+  @media (max-width: 1200px) {
+    .section-info-2 .container-info-2 {
+      flex-direction: column; }
+      .section-info-2 .container-info-2 .txt-info-2 {
+        width: auto; }
+        .section-info-2 .container-info-2 .txt-info-2 div {
+          width: auto;
+          padding: 15px;
+          flex: none;
+          text-align: center;
+          margin: auto; }
+        .section-info-2 .container-info-2 .txt-info-2 button {
+          margin-bottom: 5%; }
+      .section-info-2 .container-info-2 .img-info-2 {
+        width: 100%; } }
 
 /*Section Info Cards*/
 .section-info-cards {
@@ -268,17 +312,8 @@ header h1::after {
     font-size: 25px; }
 
 .section-info-3 {
-  background-color: #85ad91;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; }
+  background-color: #85ad91; }
   .section-info-3 .container-info-3 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    flex-direction: row;
-    justify-content: center;
     max-width: 1280px; }
   .section-info-3 p {
     text-align: left;
@@ -307,6 +342,8 @@ header h1::after {
       width: auto; }
       .section-info-3 .bloco-txt p, .section-info-3 .bloco-txt h2 {
         text-align: center; }
+      .section-info-3 .bloco-txt div {
+        padding: 0; }
     .section-info-3 .bloco-img {
       width: 50%;
       margin-bottom: 3%; } }
