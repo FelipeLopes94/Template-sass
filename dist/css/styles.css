@@ -208,10 +208,6 @@ header h1::after {
   align-items: center;
   justify-content: center;
   position: relative; }
-  .section-img-cube .imgs-cube {
-    width: 30%;
-    border-radius: 12px;
-    height: 400px; }
   @media (max-width: 1200px) {
     .section-img-cube .swiper-container3 {
       position: relative;
@@ -278,7 +274,8 @@ header h1::after {
     margin: auto; }
   .section-info-cards img {
     width: 95%;
-    height: 360px; }
+    height: 360px;
+    border-radius: 7px; }
   .section-info-cards .info-card {
     flex: 1 1 260px;
     display: flex;

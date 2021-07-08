@@ -145,14 +145,6 @@ header {
     align-items: center;
     justify-content: center;
     position: relative;
-    // bottom: 110px;
-
-  .imgs-cube{
-    width: 30%;
-    border-radius: 12px;
-    height: 400px;
-
-  }
 
   @media (max-width: 1200px) {
 
@@ -260,6 +252,7 @@ header {
   img{
     width: 95%;
     height: 360px;
+    border-radius: 7px;
   }
 
   .info-card {
