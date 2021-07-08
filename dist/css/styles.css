@@ -151,7 +151,7 @@ header h1::after {
   align-items: flex-start; }
 
 .section-info-1 .txt-info-1 {
-  background-color: #90A955;
+  background-image: linear-gradient(to right top, #3e903a, #409440, #429945, #459d4a, #47a250, #4ca652, #50aa55, #55ae57, #5db257, #65b657, #6dba56, #75be56);
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -160,10 +160,11 @@ header h1::after {
     text-align: left;
     font-size: 23px; }
   .section-info-1 .txt-info-1 div {
-    margin-left: 10%;
     width: 40%;
     padding: 15px;
     flex: 3 5 430px; }
+  .section-info-1 .txt-info-1 button {
+    margin-bottom: 4%; }
 
 .section-info-1 .img-info-1 {
   width: 50%;
@@ -215,24 +216,18 @@ header h1::after {
 
 .section-info-2 {
   display: flex;
-  align-content: center;
-  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   height: 100%;
   margin-top: 4%; }
   .section-info-2 .txt-info-2 {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%; }
+    align-items: center; }
     .section-info-2 .txt-info-2 p {
       text-align: left;
       font-size: 23px; }
     .section-info-2 .txt-info-2 div {
-      margin-left: 10%;
       width: 40%;
       padding: 15px;
       flex: 3 5 430px; }
@@ -247,7 +242,8 @@ header h1::after {
     .section-info-2 .container-info-2 {
       flex-direction: column; }
       .section-info-2 .container-info-2 .txt-info-2 {
-        width: auto; }
+        width: auto;
+        padding: 50px; }
         .section-info-2 .container-info-2 .txt-info-2 div {
           width: auto;
           padding: 15px;
@@ -309,7 +305,7 @@ header h1::after {
     font-size: 25px; }
 
 .section-info-3 {
-  background-color: #85ad91; }
+  background-image: linear-gradient(to right top, #499046, #4b934a, #4c954f, #4e9853, #509b57, #55a05a, #59a55c, #5eaa5f, #67b261, #71bb63, #7bc365, #85cb67); }
   .section-info-3 .container-info-3 {
     max-width: 1280px; }
   .section-info-3 p {

@@ -64,7 +64,7 @@ header {
   }
     .txt-info-1{
 
-      background-color: #90A955;
+      background-image: linear-gradient(to right top, #3e903a, #409440, #429945, #459d4a, #47a250, #4ca652, #50aa55, #55ae57, #5db257, #65b657, #6dba56, #75be56);
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -75,10 +75,13 @@ header {
         font-size: 23px;
       }
       div{
-        margin-left: 10%;
         width: 40%;
         padding: 15px;
         flex: 3 5 430px;
+      }
+
+      button{
+        margin-bottom: 4%;
       }
     }
 
@@ -162,11 +165,7 @@ header {
 .section-info-2{
 
   display: flex;
-  align-content: center;
-  flex-wrap: nowrap;
   flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-start;
   height: 100%;
   margin-top: 4%;
 
@@ -175,8 +174,7 @@ header {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%;
+    align-items: center;
 
     p{
       text-align: left;
@@ -184,7 +182,6 @@ header {
     }
 
     div{
-      margin-left: 10%;
       width: 40%;
       padding: 15px;
       flex: 3 5 430px;
@@ -208,6 +205,7 @@ header {
 
       .txt-info-2{
         width: auto;
+        padding: 50px;
 
         div{
           width: auto;
@@ -311,8 +309,7 @@ header {
 
 .section-info-3{
 
-    background-color: #85ad91;
-
+  background-image: linear-gradient(to right top, #499046, #4b934a, #4c954f, #4e9853, #509b57, #55a05a, #59a55c, #5eaa5f, #67b261, #71bb63, #7bc365, #85cb67);
     .container-info-3{
       max-width: 1280px;
 
