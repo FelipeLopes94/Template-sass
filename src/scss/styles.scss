@@ -1,38 +1,19 @@
 @import "mixins";
+@import "navBar-style.scss";
 
 html, body{ margin: 0; background-color: #c8e7d2d3;}
 
 // Navbar styles
-.navBar{
-    position: relative;
-    z-index: 99;
-    display: flex;
-    justify-content: space-around;
-    height: 0px;
-    top: 10px;
-    .bloco-meio-navbar{
-      align-items: center;
-      margin-left: 10%;
-
-      a{
-        margin: 9px;
-        color: #ECF39E;
-        font-size: 22px;
-        font-family: $ptsans;
-        text-decoration: none;
-      }
-    }
-
-    .bloco-direita-navbar{
-      a{
-        margin: 5px;
-      }
-    }
-
-    img{
-      margin-left: 11px;
-    }
+#header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e7e7e7;
 }
+
 
 // fullbaner Styles
 
@@ -185,7 +166,7 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
 	align-items: center;
 
   img{
-    width: 80%;
+    width: 70%;
     height: 360px;
   }
 
@@ -244,10 +225,24 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
 
 // Section text image 2
 
-.section-text-image-2{
+.section-info-3{
 
-    display: flex;
     background-color: #85ad91;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+
+    .container-info-3{
+
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      flex-direction: row;
+      justify-content: center;
+
+    }
     p{
       text-align: left;
       font-size: 23px;
@@ -261,35 +256,48 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
   .bloco-txt{
     width: 50%;
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%;
 
     div{
-      margin-left: 10%;
-      width: 40%;
-      padding: 15px;
+      padding: 22px 55px;
       flex: 3 5 430px;
     }
   }
 
   .bloco-img{
-    width: 50%;
+    width: auto;
     display: flex;
     justify-content: center;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden;
 
-    img{
-      width: 50%;
+    div{
+      width: 100%;
+
+      img{
+        width: 100%;
+      }
     }
 
+
+  }
+
+  @media (max-width: 1200px) {
+
+    .container-info-3{
+      flex-direction: column;
+    }
+    .bloco-txt{
+      width: auto;
+      p, h2{text-align: center;}
+    }
+    .bloco-img{
+
+      width: 50%;
+      margin-bottom: 3%;
+    }
   }
 }
 
 
-/*Produtos*/
+/*SECTION TRIPPLE IMAGES*/
 
 .section-tripple-images {
 	max-width: 1280px;
@@ -326,7 +334,6 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
   
 
 }
-
 
 .h2-midle-page{
   margin-top: 5%;

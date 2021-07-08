@@ -25,30 +25,91 @@
     box-shadow: 3px 4px 10px 4px #000000b3;
     background-color: #b3e6c3d3; }
 
+.navbar {
+  height: 0px;
+  position: absolute;
+  z-index: 99; }
+
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem; }
+
+#menu a {
+  display: block;
+  padding: 0.5rem;
+  color: white;
+  text-decoration: none; }
+
+#btn-mobile {
+  display: none; }
+
+@media (max-width: 600px) {
+  .navbar {
+    height: auto;
+    position: relative;
+    z-index: 99; }
+  #menu {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 18px;
+    right: 0px;
+    background: #e7e7e7;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden; }
+  #nav.active #menu {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto; }
+  #menu a {
+    padding: 1rem 0;
+    margin: 0 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05); }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem; }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px; }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative; }
+  #nav.active #hamburger {
+    border-top-color: transparent; }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg); }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px; } }
+
 html, body {
   margin: 0;
   background-color: #c8e7d2d3; }
 
-.navBar {
-  position: relative;
-  z-index: 99;
+#header {
+  box-sizing: border-box;
+  height: 70px;
+  padding: 1rem;
   display: flex;
-  justify-content: space-around;
-  height: 0px;
-  top: 10px; }
-  .navBar .bloco-meio-navbar {
-    align-items: center;
-    margin-left: 10%; }
-    .navBar .bloco-meio-navbar a {
-      margin: 9px;
-      color: #ECF39E;
-      font-size: 22px;
-      font-family: "PT Sans", sans-serif;
-      text-decoration: none; }
-  .navBar .bloco-direita-navbar a {
-    margin: 5px; }
-  .navBar img {
-    margin-left: 11px; }
+  align-items: center;
+  justify-content: space-between;
+  background: #e7e7e7; }
 
 .fullbanner {
   height: 100vh; }
@@ -153,7 +214,7 @@ html, body {
   flex-wrap: wrap;
   align-items: center; }
   .section-info-cards img {
-    width: 80%;
+    width: 70%;
     height: 360px; }
   .section-info-cards .info-card {
     flex: 1 1 260px;
@@ -187,37 +248,50 @@ html, body {
     font-family: "PT Sans", sans-serif;
     font-size: 25px; }
 
-.section-text-image-2 {
+.section-info-3 {
+  background-color: #85ad91;
   display: flex;
-  background-color: #85ad91; }
-  .section-text-image-2 p {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+  .section-info-3 .container-info-3 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center; }
+  .section-info-3 p {
     text-align: left;
     font-size: 23px;
     color: white; }
-  .section-text-image-2 h2 {
+  .section-info-3 h2 {
     color: white; }
-  .section-text-image-2 .bloco-txt {
+  .section-info-3 .bloco-txt {
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 5%; }
-    .section-text-image-2 .bloco-txt div {
-      margin-left: 10%;
-      width: 40%;
-      padding: 15px;
+    display: flex; }
+    .section-info-3 .bloco-txt div {
+      padding: 22px 55px;
       flex: 3 5 430px; }
-  .section-text-image-2 .bloco-img {
-    width: 50%;
+  .section-info-3 .bloco-img {
+    width: auto;
     display: flex;
-    justify-content: center;
-    position: relative;
-    margin: 0 auto;
-    overflow: hidden; }
-    .section-text-image-2 .bloco-img img {
-      width: 50%; }
+    justify-content: center; }
+    .section-info-3 .bloco-img div {
+      width: 100%; }
+      .section-info-3 .bloco-img div img {
+        width: 100%; }
+  @media (max-width: 1200px) {
+    .section-info-3 .container-info-3 {
+      flex-direction: column; }
+    .section-info-3 .bloco-txt {
+      width: auto; }
+      .section-info-3 .bloco-txt p, .section-info-3 .bloco-txt h2 {
+        text-align: center; }
+    .section-info-3 .bloco-img {
+      width: 50%;
+      margin-bottom: 3%; } }
 
-/*Produtos*/
+/*SECTION TRIPPLE IMAGES*/
 .section-tripple-images {
   max-width: 1280px;
   margin: 60px auto;
