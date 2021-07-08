@@ -176,38 +176,38 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
 }
 
 
-.section-info-cards{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin-top: 4%;
-    .container-info-cards{
-      width: 100%;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      align-content: space-around;
+// .section-info-cards{
+//     width: 100%;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     flex-direction: column;
+//     margin-top: 4%;
+//     .container-info-cards{
+//       width: 100%;
+//       display: flex;
+//       flex-direction: row;
+//       align-items: center;
+//       justify-content: center;
+//       align-content: space-around;
   
-    }
-  .info-card{
+//     }
+//   .info-card{
 
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+//     width: 20%;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
 
-    img{
-      width: 75%;
-      height: 350px;
-      border-radius: 5px;
-    }
-  }
+//     img{
+//       width: 75%;
+//       height: 350px;
+//       border-radius: 5px;
+//     }
+//   }
 
-}
+// }
 
 .section-text-mid{
   display: flex;
@@ -266,6 +266,63 @@ html, body{ margin: 0; background-color: #c8e7d2d3;}
 
   }
 }
+
+
+
+/*Preco*/
+
+.section-info-cards {
+	padding: 60px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+  img{
+    width: 90%;
+  }
+
+  .info-card {
+    flex: 1 1 260px;
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .info-card h2 {
+    font-size: 22px;
+    color: #a4a4a4;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .info-card sup {
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  @media (max-width: 800px) {
+    .section-info-cards {
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+    .section-info-cards .info-card:nth-child(3) {
+      order: -2;
+    }
+    .section-info-cards .info-card:nth-child(2) {
+      order: -1;
+    }
+  }
+  
+}
+
+
+
+
 // Estilos Swiper sliders //
 
 .swiper-container {
