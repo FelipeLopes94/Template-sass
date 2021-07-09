@@ -7,7 +7,6 @@ html, body{ margin: 0; background-color: #c8e7d2d3; p{font-family: $ptsans;}}
 header {
 
   h1 {
-    max-width: 20%;
     text-align: center;
     margin: 0 auto;
     color: #fff;
@@ -41,15 +40,23 @@ header {
   height: 100vh;
 
   .text-fullBanner{
-      position: relative;
-      top: 50%;
-      transform: translateY(-50%);
       font-family: $playfair;
-      
+      display: flex;
+      justify-content: center;
+
+      div{
+        width: 65%;
+      }
   }
 
   .swiper-container{
     height: 100vh;
+
+    .swiper-slide{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
 

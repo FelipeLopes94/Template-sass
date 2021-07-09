@@ -118,7 +118,6 @@ html, body {
     font-family: "PT Sans", sans-serif; }
 
 header h1 {
-  max-width: 20%;
   text-align: center;
   margin: 0 auto;
   color: #fff;
@@ -140,12 +139,17 @@ header h1::after {
 .fullbanner {
   height: 100vh; }
   .fullbanner .text-fullBanner {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    font-family: "Playfair Display", serif; }
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center; }
+    .fullbanner .text-fullBanner div {
+      width: 65%; }
   .fullbanner .swiper-container {
     height: 100vh; }
+    .fullbanner .swiper-container .swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
 
 .section-info-1 .container-info-1 {
   align-items: flex-start; }
