@@ -105,4 +105,15 @@ function txtInputEffect(elemento) {
     setTimeout(() => elemento.innerHTML += letra, 75 * i);
   });
 }
+
+// ** -- funcao loader -- ** //
+
+window.addEventListener("load", function () {
+  const loader = document.querySelector(".loader");
+  loader.className += " hidden"; // class "loader hidden"
+  console.log (loader)
+});
+
+
+// Execucao de functions
 txtInputEffect(titulo);
