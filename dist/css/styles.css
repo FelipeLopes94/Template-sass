@@ -430,8 +430,7 @@ header h1::after {
   color: #fff;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 40px 60px;
-  height: 50vh; }
+  padding: 40px 60px; }
 
 .section-banner-image .parallax-bg {
   position: absolute;
