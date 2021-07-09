@@ -3,7 +3,7 @@
 
 html, body{ margin: 0; background-color: #c8e7d2d3; p{font-family: $ptsans;}}
 
-// Navbar styles
+// ## -- ESTILOS HEADER -- ## //
 header {
 
   h1 {
@@ -31,9 +31,10 @@ header {
     }
   }
 }
+// ## -- FIM ESTILOS HEADER -- ## //
 
 
-// fullbaner Styles
+// ## --  SECAO FULLBANNER -- ## //
 
 
 .fullbanner{
@@ -60,8 +61,9 @@ header {
   }
 }
 
+// ## -- FIM SECAO FULLBANNER -- ## //
 
-// Section Info 1 //
+// ## --  SECAO INFO 1 -- ## //
 
 
 .section-info-1{
@@ -147,8 +149,9 @@ header {
       }
     }
 }
+// ## -- FIM SECAO INFO 1 -- ## //
 
-// Section img Cube
+// ## --  SECAO IMG CUBE -- ## //
 
 .section-img-cube{
   display: flex;
@@ -165,8 +168,10 @@ header {
   }
 }
 
+// ## -- FIM SECAO IMG CUBE -- ## //
 
-// Section Info 2 styles //
+
+// ## -- SECAO INFO 2 -- ## //
 
 
 .section-info-2{
@@ -234,9 +239,10 @@ header {
   }
   
 }
+// ## -- FIM SECAO INFO 2 -- ## //
 
 
-/*Section Info Cards*/
+// ## -- SECAO INFO CARDS -- ## //
 
 
 .section-info-cards {
@@ -257,8 +263,7 @@ header {
   img{
     width: 95%;
     height: 360px;
-    border-radius: 7px;
-  }
+    border-radius: 10px;  }
 
   .info-card {
     flex: 1 1 260px;
@@ -295,13 +300,15 @@ header {
   
 }
 
-// Section text Mid
+// ## -- FIM SECAO INFO CARDS -- ## //
+
+// ## -- SECAO TEXT MID -- ## //
 
 .section-text-mid{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 4%;
+  margin: 7%;
 
   h3{
     text-align: center;
@@ -312,11 +319,13 @@ header {
 
 
 // Section Info 3
+.section-info-images{
+  background-image: linear-gradient(to right top, #499046, #4b934a, #4c954f, #4e9853, #509b57, #55a05a, #59a55c, #5eaa5f, #67b261, #71bb63, #7bc365, #85cb67);
 
+}
 
 .section-info-3{
 
-  background-image: linear-gradient(to right top, #499046, #4b934a, #4c954f, #4e9853, #509b57, #55a05a, #59a55c, #5eaa5f, #67b261, #71bb63, #7bc365, #85cb67);
     .container-info-3{
       max-width: 1280px;
 
@@ -351,6 +360,8 @@ header {
 
       img{
         width: 100%;
+        margin-top: -75px;
+        border-radius: 10px;
       }
     }
   }
@@ -372,12 +383,14 @@ header {
 
       width: 50%;
       margin-bottom: 3%;
+      div img{ margin-top: 0;}
     }
   }
 }
 
+// ## -- FIM SECAO TEXT MID -- ## //
 
-/*SECTION TRIPPLE IMAGES*/
+// ## -- SECAO TRIPPLE IMGS -- ## //
 
 .section-tripple-images {
 	max-width: 1280px;
@@ -389,6 +402,7 @@ header {
 
     img{
       width: 100%;
+      border-radius: 10px;
     }
     
   .section-tripple-images h1 {
@@ -419,7 +433,9 @@ header {
   margin-top: 5%;
 }
 
-// Estilos Swiper sliders //
+// ## -- FIM SECAO TRIPPLE IMGS -- ## //
+
+// ## --  ESTILOS DO SWIPPR -- ## //
 
 .swiper-container {
   width: 100%;
@@ -485,3 +501,5 @@ header {
     border-radius: 15px;
   }
 }
+
+// ## -- FIM ESTILOS DO SWIPPR -- ## //
