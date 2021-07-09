@@ -4,13 +4,18 @@
 
 .btn-default {
   cursor: pointer;
-  background-color: green;
+  background-color: #a5907e;
+  border-color: #a5907e;
+  border-radius: 10px;
   padding: 13px;
   width: 150px;
   color: white;
-  box-shadow: 3px 4px 10px 4px #000000b3;
+  box-shadow: 6px 4px 20px 4px #000000b3;
   font-family: "PT Sans", sans-serif;
   font-size: 15px; }
+  .btn-default:hover {
+    box-shadow: 3px 4px 10px 4px #776565b3;
+    background-color: #c0a792; }
 
 .btn-default-2 {
   cursor: pointer;
@@ -20,10 +25,12 @@
   border: 2.5px solid black;
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
-  background-color: #c3e9cfd3; }
+  background-color: #c2a48b;
+  border-color: #c2a48b;
+  border-radius: 10px; }
   .btn-default-2:hover {
     box-shadow: 3px 4px 10px 4px #776565b3;
-    background-color: #b3e6c3d3; }
+    background-color: #dfbc9f; }
 
 .secao-2-elementos {
   display: flex;
@@ -142,9 +149,10 @@
 
 html, body {
   margin: 0;
-  background-color: #c8e7d2d3; }
+  background-color: #E6EED6; }
   html p, body p {
-    font-family: "PT Sans", sans-serif; }
+    font-family: "PT Sans", sans-serif;
+    color: #090C02; }
 
 header h1 {
   text-align: center;
@@ -182,7 +190,7 @@ header h1::after {
   align-items: flex-start; }
 
 .section-info-1 .txt-info-1 {
-  background-image: linear-gradient(to right top, #3e903a, #409440, #429945, #459d4a, #47a250, #4ca652, #50aa55, #55ae57, #5db257, #65b657, #6dba56, #75be56);
+  background-color: #BBC5AA;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -310,7 +318,7 @@ header h1::after {
     flex-direction: column; }
   .section-info-cards .info-card h2 {
     font-size: 22px;
-    color: #a4a4a4;
+    color: #090C02;
     text-align: center;
     margin-top: 20px; }
   .section-info-cards .info-card sup {
@@ -335,7 +343,7 @@ header h1::after {
     font-size: 25px; }
 
 .section-info-images {
-  background-image: linear-gradient(to right top, #499046, #4b934a, #4c954f, #4e9853, #509b57, #55a05a, #59a55c, #5eaa5f, #67b261, #71bb63, #7bc365, #85cb67); }
+  background-color: #BBC5AA; }
 
 .section-info-3 .container-info-3 {
   max-width: 1280px; }
@@ -343,10 +351,10 @@ header h1::after {
 .section-info-3 p {
   text-align: left;
   font-size: 23px;
-  color: white; }
+  color: #090C02; }
 
 .section-info-3 h2 {
-  color: white; }
+  color: #090C02; }
 
 .section-info-3 .bloco-txt {
   width: 50%;
@@ -403,7 +411,7 @@ header h1::after {
     margin: 10px; }
   .section-tripple-images .image-item h3 {
     font-size: 3em;
-    color: #a4a4a4; }
+    color: #090C02; }
 
 .h2-midle-page {
   margin-top: 5%; }

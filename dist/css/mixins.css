@@ -4,13 +4,18 @@
 
 .btn-default {
   cursor: pointer;
-  background-color: green;
+  background-color: #a5907e;
+  border-color: #a5907e;
+  border-radius: 10px;
   padding: 13px;
   width: 150px;
   color: white;
-  box-shadow: 3px 4px 10px 4px #000000b3;
+  box-shadow: 6px 4px 20px 4px #000000b3;
   font-family: "PT Sans", sans-serif;
   font-size: 15px; }
+  .btn-default:hover {
+    box-shadow: 3px 4px 10px 4px #776565b3;
+    background-color: #c0a792; }
 
 .btn-default-2 {
   cursor: pointer;
@@ -20,10 +25,12 @@
   border: 2.5px solid black;
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
-  background-color: #c3e9cfd3; }
+  background-color: #c2a48b;
+  border-color: #c2a48b;
+  border-radius: 10px; }
   .btn-default-2:hover {
     box-shadow: 3px 4px 10px 4px #776565b3;
-    background-color: #b3e6c3d3; }
+    background-color: #dfbc9f; }
 
 .secao-2-elementos {
   display: flex;

@@ -1,7 +1,7 @@
 @import "mixins";
 @import "navBar-style.scss";
 
-html, body{ margin: 0; background-color: #c8e7d2d3; p{font-family: $ptsans;}}
+html, body{ margin: 0; background-color: #E6EED6; p{font-family: $ptsans; color: #090C02;}}
 
 // ## -- ESTILOS HEADER -- ## //
 header {
@@ -73,7 +73,7 @@ header {
   }
     .txt-info-1{
 
-      background-image: linear-gradient(to right top, #3e903a, #409440, #429945, #459d4a, #47a250, #4ca652, #50aa55, #55ae57, #5db257, #65b657, #6dba56, #75be56);
+      background-color: #BBC5AA;
       width: 50%;
       display: flex;
       flex-direction: column;
@@ -275,7 +275,7 @@ header {
   
   .info-card h2 {
     font-size: 22px;
-    color: #a4a4a4;
+    color: #090C02;
     text-align: center;
     margin-top: 20px;
   }
@@ -317,12 +317,16 @@ header {
   }
 }
 
+// ## -- FIM TEXT MID -- ## //
 
-// Section Info 3
+
+// ## -- SECAO INFO IMAGES -- ## //
+
 .section-info-images{
-  background-image: linear-gradient(to right top, #499046, #4b934a, #4c954f, #4e9853, #509b57, #55a05a, #59a55c, #5eaa5f, #67b261, #71bb63, #7bc365, #85cb67);
+  background-color: #BBC5AA;
 
 }
+// ## -- SECAO INFO 3 -- ## //
 
 .section-info-3{
 
@@ -333,11 +337,11 @@ header {
     p{
       text-align: left;
       font-size: 23px;
-      color: white;
+      color: #090C02;
     }
     
     h2{
-      color: white;
+      color: #090C02;
     }
 
   .bloco-txt{
@@ -388,8 +392,6 @@ header {
   }
 }
 
-// ## -- FIM SECAO TEXT MID -- ## //
-
 // ## -- SECAO TRIPPLE IMGS -- ## //
 
 .section-tripple-images {
@@ -423,7 +425,7 @@ header {
   
   .image-item h3 {
     font-size: 3em;
-    color: #a4a4a4;
+    color: #090C02;
   }
   
 
