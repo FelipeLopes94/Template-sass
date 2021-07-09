@@ -3,13 +3,31 @@
     height: 0px;
     position: absolute;
     z-index: 99;
-    
+    width: 100%;
+
+    .logo{
+      float:left;
+    }
+
+    .links-nav{
+      display: flex;
+    }
+
+    .icons-nav{
+      float: right;
+
+      img{
+        margin-right: 10px;
+
+      }
+    }
   }
 
 #menu {
     display: flex;
     list-style: none;
     gap: 0.5rem;
+    justify-content: space-around;
   }
   
   #menu a {
@@ -30,6 +48,29 @@
         position: relative;
         z-index: 99;
         
+        .logo{
+          float:none;
+          display: flex;
+          justify-content: center;
+        }
+    
+        .links-nav{
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-start;
+          align-items: center;
+        }
+    
+        .icons-nav{
+          float: none;
+          display: flex;
+          justify-content: center;
+    
+          img{
+            margin-right: 12px;
+    
+          }
+        }
       }
     #menu {
       display: block;
@@ -37,7 +78,7 @@
       width: 100%;
       top: 18px;
       right: 0px;
-      background: #e7e7e7;
+      background: #4299457a;
       transition: 0.6s;
       z-index: 1000;
       height: 0px;
@@ -45,7 +86,7 @@
       overflow-y: hidden;
     }
     #nav.active #menu {
-      height: calc(100vh - 70px);
+      height: calc(100vh - 35px);
       visibility: visible;
       overflow-y: auto;
     }
