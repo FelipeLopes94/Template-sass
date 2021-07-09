@@ -57,6 +57,18 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
 
+  var swiper4 = new Swiper(".mySwiper4", {
+    speed: 600,
+    parallax: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
 
   // **-- Funcoes da na navbar -- ** //
 
