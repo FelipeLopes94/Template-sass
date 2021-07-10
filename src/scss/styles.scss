@@ -343,7 +343,9 @@ header {
   img{
     width: 95%;
     height: 360px;
-    border-radius: 10px;  }
+    border-radius: 10px;
+    box-shadow: 6px 4px 20px 4px #000000b3;
+  }
 
   .info-card {
     flex: 1 1 260px;
@@ -407,6 +409,7 @@ header {
 .section-info-products{
 
   background-color: #BBC5AA;
+  box-shadow: 6px 4px 20px 4px #000000b3;
 
   // ## -- SECAO INFO 3 -- ## //
 
@@ -546,6 +549,8 @@ header {
 
 .section-banner-parallax{
 
+  box-shadow: 6px 4px 20px 4px #000000b3;
+    
   img{
     border-radius: 120px;
     width: 26%;
@@ -635,7 +640,9 @@ header {
 }
 
 .form{
+
   margin-top: 5%;
+
     .container-form{
       display: flex;
       max-width: 1280px;
@@ -679,6 +686,8 @@ header {
 }
 
 .footer{
+
+  box-shadow: 6px 4px 20px 4px #000000b3;
 
   height: 100px;
   margin-top: 4%;
