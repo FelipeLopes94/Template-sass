@@ -104,6 +104,7 @@ header {
       flex-direction: column;
       align-items: center;
       font-family: $playfair;
+      box-shadow: 6px 4px 20px 4px #000000b3;
 
       p{
         text-align: left;
@@ -131,7 +132,7 @@ header {
         width: 52%;
         border-radius: 21px;
         z-index: 9;
-
+        box-shadow: 6px 4px 20px 4px #000000b3;
         }
       
       .img-info2{
@@ -140,6 +141,7 @@ header {
         position: absolute;
         top: 35%;
         right: 0;
+        box-shadow: 6px 4px 20px 4px #000000b3;
       }
     }
 

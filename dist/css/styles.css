@@ -247,7 +247,8 @@ header h1::after {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: "Playfair Display", serif; }
+  font-family: "Playfair Display", serif;
+  box-shadow: 6px 4px 20px 4px #000000b3; }
   .section-info-1 .txt-info-1 p {
     text-align: left;
     font-size: 23px; }
@@ -267,13 +268,15 @@ header h1::after {
   .section-info-1 .img-info-1 .img-info1 {
     width: 52%;
     border-radius: 21px;
-    z-index: 9; }
+    z-index: 9;
+    box-shadow: 6px 4px 20px 4px #000000b3; }
   .section-info-1 .img-info-1 .img-info2 {
     width: 40%;
     border-radius: 46px;
     position: absolute;
     top: 35%;
-    right: 0; }
+    right: 0;
+    box-shadow: 6px 4px 20px 4px #000000b3; }
 
 @media (max-width: 500px) {
   .section-info-1 .img-info-1 {
