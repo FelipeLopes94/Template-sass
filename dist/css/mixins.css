@@ -18,7 +18,8 @@
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
     -o-transform: scale(1.1);
-    transform: scale(1.1); }
+    transform: scale(1.1);
+    transition: transform 0.8s; }
 
 .btn-default-2 {
   cursor: pointer;
@@ -28,12 +29,14 @@
   border: 2.5px solid black;
   font-family: "PT Sans", sans-serif;
   font-size: 15px;
-  background-color: #c2a48b;
-  border-color: #c2a48b;
+  background-color: #d4bf8d;
+  border-color: #d4bf8d;
   border-radius: 10px; }
   .btn-default-2:hover {
-    box-shadow: 3px 4px 10px 4px #776565b3;
-    background-color: #dfbc9f; }
+    box-shadow: 3px 4px 10px 4px #443d36;
+    background-color: #d4bf8d;
+    transform: translateY(-5px);
+    transition: transform 0.8s; }
 
 .secao-2-elementos {
   display: flex;
