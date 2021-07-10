@@ -576,14 +576,12 @@ header h1::after {
   .form .container-form {
     display: flex;
     max-width: 1280px;
-    /* width: 100%; */
     align-items: center;
     justify-content: space-around;
     margin: auto; }
   .form input {
     border: none;
     border-bottom: 2px solid #000;
-    /* width: 100%; */
     margin-bottom: 0%;
     padding-right: 120px;
     outline: none;
@@ -591,7 +589,8 @@ header h1::after {
   .form button {
     padding: 4px 37px 3px;
     background-color: #090C02;
-    color: white; }
+    color: white;
+    cursor: pointer; }
   @media (max-width: 900px) {
     .form .container-form {
       flex-direction: column;
