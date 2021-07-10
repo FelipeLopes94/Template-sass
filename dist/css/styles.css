@@ -92,7 +92,7 @@
   .navbar .icons-nav {
     float: right;
     display: flex; }
-    .navbar .icons-nav img {
+    .navbar .icons-nav .img-icon-navbar {
       margin-right: 10px; }
 
 #menu {
@@ -128,7 +128,7 @@
       float: none;
       display: flex;
       justify-content: center; }
-      .navbar .icons-nav img {
+      .navbar .icons-nav .img-icon-navbar {
         margin-right: 12px; }
   #menu {
     display: block;
