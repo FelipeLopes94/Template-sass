@@ -192,7 +192,8 @@ html, body {
 
 header h1 {
   text-align: center;
-  margin: 0 auto; }
+  margin: 0 auto;
+  font-family: "PT Sans", sans-serif; }
 
 header h1::after {
   opacity: 1;
@@ -245,7 +246,8 @@ header h1::after {
   width: 50%;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+  font-family: "Playfair Display", serif; }
   .section-info-1 .txt-info-1 p {
     text-align: left;
     font-size: 23px; }
@@ -343,7 +345,8 @@ header h1::after {
     width: 50%;
     display: flex;
     flex-direction: column;
-    align-items: center; }
+    align-items: center;
+    font-family: "Playfair Display", serif; }
     .section-info-2 .txt-info-2 p {
       text-align: left;
       font-size: 23px; }
@@ -401,7 +404,8 @@ header h1::after {
     font-size: 22px;
     color: #090C02;
     text-align: center;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-family: "PT Sans", sans-serif; }
   .section-info-cards .info-card sup {
     font-size: 1.5rem; }
   @media (max-width: 800px) {
@@ -430,9 +434,11 @@ header h1::after {
   .section-info-products .section-info-3 p {
     text-align: left;
     font-size: 23px;
-    color: #090C02; }
+    color: #090C02;
+    font-family: "Playfair Display", serif; }
   .section-info-products .section-info-3 h2 {
-    color: #090C02; }
+    color: #090C02;
+    font-family: "Playfair Display", serif; }
   .section-info-products .section-info-3 .bloco-txt {
     width: 50%;
     display: flex; }
@@ -455,7 +461,8 @@ header h1::after {
     .section-info-products .section-info-3 .bloco-txt {
       width: auto; }
       .section-info-products .section-info-3 .bloco-txt p, .section-info-products .section-info-3 .bloco-txt h2 {
-        text-align: center; }
+        text-align: center;
+        font-family: "PT Sans", sans-serif; }
       .section-info-products .section-info-3 .bloco-txt div {
         padding: 0; }
     .section-info-products .section-info-3 .bloco-img {
@@ -471,12 +478,18 @@ header h1::after {
     align-items: center;
     justify-content: center;
     margin-top: 3%; }
+    .section-info-products .section-tripple-images h2 {
+      font-size: 30px;
+      color: #090C02;
+      font-family: "PT Sans", sans-serif;
+      margin: 0; }
     .section-info-products .section-tripple-images img {
       width: 100%;
       border-radius: 10px; }
     .section-info-products .section-tripple-images .section-tripple-images h1 {
       font-size: 3em;
-      margin: 0 10px 60px 10px; }
+      margin: 0 10px 60px 10px;
+      font-family: "Playfair Display", serif; }
     .section-info-products .section-tripple-images .images-container {
       display: flex;
       flex-wrap: wrap;
@@ -485,11 +498,13 @@ header h1::after {
       flex: 1 1 175px;
       margin: 10px; }
     .section-info-products .section-tripple-images .image-item h3 {
-      font-size: 3em;
-      color: #090C02; }
+      font-size: 27px;
+      color: #090C02;
+      font-family: "PT Sans", sans-serif; }
 
 .h2-midle-page {
-  margin-top: 5%; }
+  margin-top: 5%;
+  font-family: "PT Sans", sans-serif; }
 
 .section-banner-parallax img {
   border-radius: 120px;
@@ -551,7 +566,8 @@ header h1::after {
   text-align: center; }
   .section-adress h3 {
     text-decoration: underline;
-    font-size: 14px; }
+    font-size: 14px;
+    font-family: "PT Sans", sans-serif; }
 
 .form {
   margin-top: 5%; }
@@ -607,4 +623,5 @@ header h1::after {
           width: 30px;
           margin-right: 7px; }
     .footer .container-footer a {
-      color: #090C02; }
+      color: #090C02;
+      font-family: "PT Sans", sans-serif; }

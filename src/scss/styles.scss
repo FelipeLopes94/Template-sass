@@ -9,6 +9,7 @@ header {
   h1 {
     text-align: center;
     margin: 0 auto;
+    font-family: $ptsans;
 
   }
   
@@ -102,6 +103,7 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
+      font-family: $playfair;
 
       p{
         text-align: left;
@@ -262,6 +264,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: $playfair;
 
     p{
       text-align: left;
@@ -353,6 +356,8 @@ header {
     color: #090C02;
     text-align: center;
     margin-top: 20px;
+    font-family: $ptsans;
+
   }
   
   .info-card sup {
@@ -413,10 +418,14 @@ header {
         text-align: left;
         font-size: 23px;
         color: #090C02;
+        font-family: $playfair;
+
       }
       
       h2{
         color: #090C02;
+        font-family: $playfair;
+
       }
 
     .bloco-txt{
@@ -452,7 +461,7 @@ header {
       }
       .bloco-txt{
         width: auto;
-        p, h2{text-align: center;}
+        p, h2{text-align: center;font-family: $ptsans}
 
         div{
           padding: 0;
@@ -478,6 +487,14 @@ header {
     justify-content: center;
     margin-top: 3%;
 
+      h2{
+        font-size: 30px;
+        color: #090C02;
+        font-family: $ptsans;
+        margin: 0;
+  
+      }
+
       img{
         width: 100%;
         border-radius: 10px;
@@ -485,7 +502,9 @@ header {
       
     .section-tripple-images h1 {
       font-size: 3em;
-      margin: 0 10px 60px 10px
+      margin: 0 10px 60px 10px;
+      font-family: $playfair;
+
     }
     
     .images-container {
@@ -500,8 +519,9 @@ header {
     }
     
     .image-item h3 {
-      font-size: 3em;
+      font-size: 27px;
       color: #090C02;
+      font-family: $ptsans;
     }
     
 
@@ -514,6 +534,8 @@ header {
 
 .h2-midle-page{
   margin-top: 5%;
+  font-family: $ptsans;
+
 }
 
 // ## --  SECAO BANNER IMGAGE -- ## //
@@ -604,6 +626,7 @@ header {
   h3{
     text-decoration: underline;
     font-size: 14px;
+    font-family: $ptsans;
   }
 }
 
@@ -674,6 +697,7 @@ header {
         display: flex;
         align-items: center;
         margin-top: 5px;
+        
 
         img{
           width: 30px;
@@ -686,7 +710,7 @@ header {
     
     a{
       color: #090C02;
-
+      font-family: $ptsans;
     }
   }
 }
