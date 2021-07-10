@@ -249,14 +249,14 @@ header h1::after {
   align-items: center;
   font-family: "Playfair Display", serif;
   box-shadow: 6px 4px 20px 4px #000000b3; }
-  .section-info-1 .txt-info-1 p {
+  .section-info-1 .txt-info-1 .p-section-1 {
     text-align: left;
     font-size: 23px; }
-  .section-info-1 .txt-info-1 div {
+  .section-info-1 .txt-info-1 .text-area {
     width: 40%;
     padding: 15px;
     flex: 3 5 430px; }
-  .section-info-1 .txt-info-1 button {
+  .section-info-1 .txt-info-1 .button-section-1 {
     margin-bottom: 4%; }
 
 .section-info-1 .img-info-1 {
@@ -287,13 +287,13 @@ header h1::after {
     flex-direction: column; }
     .section-info-1 .container-info-1 .txt-info-1 {
       width: auto; }
-      .section-info-1 .container-info-1 .txt-info-1 div {
+      .section-info-1 .container-info-1 .txt-info-1 .text-area {
         width: auto;
         padding: 15px;
         flex: none;
         text-align: center;
         margin: auto; }
-      .section-info-1 .container-info-1 .txt-info-1 button {
+      .section-info-1 .container-info-1 .txt-info-1 .btn-section-1 {
         margin-bottom: 5%; }
     .section-info-1 .container-info-1 .img-info-1 {
       width: auto;
@@ -350,10 +350,10 @@ header h1::after {
     flex-direction: column;
     align-items: center;
     font-family: "Playfair Display", serif; }
-    .section-info-2 .txt-info-2 p {
+    .section-info-2 .txt-info-2 .p-section-2 {
       text-align: left;
       font-size: 23px; }
-    .section-info-2 .txt-info-2 div {
+    .section-info-2 .txt-info-2 .text-area-section-2 {
       width: 40%;
       padding: 15px;
       flex: 3 5 430px; }
@@ -370,13 +370,13 @@ header h1::after {
       .section-info-2 .container-info-2 .txt-info-2 {
         width: auto;
         padding: 50px; }
-        .section-info-2 .container-info-2 .txt-info-2 div {
+        .section-info-2 .container-info-2 .txt-info-2 .text-area-section-2 {
           width: auto;
           padding: 15px;
           flex: none;
           text-align: center;
           margin: auto; }
-        .section-info-2 .container-info-2 .txt-info-2 button {
+        .section-info-2 .container-info-2 .txt-info-2 .btn-section-2 {
           margin-bottom: 5%; }
       .section-info-2 .container-info-2 .img-info-2 {
         width: 100%; } }
@@ -393,7 +393,7 @@ header h1::after {
     align-items: center;
     max-width: 1280px;
     margin: auto; }
-  .section-info-cards img {
+  .section-info-cards .img-card {
     width: 95%;
     height: 360px;
     border-radius: 10px;
@@ -425,8 +425,8 @@ header h1::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 7%; }
-  .section-text-mid h3 {
+  margin: 12%; }
+  .section-text-mid .title-mid-page {
     text-align: center;
     font-family: "PT Sans", sans-serif;
     font-size: 25px; }
@@ -436,27 +436,27 @@ header h1::after {
   box-shadow: 6px 4px 20px 4px #000000b3; }
   .section-info-products .section-info-3 .container-info-3 {
     max-width: 1280px; }
-  .section-info-products .section-info-3 p {
+  .section-info-products .section-info-3 .p-section-products {
     text-align: left;
     font-size: 23px;
     color: #090C02;
-    font-family: "Playfair Display", serif; }
-  .section-info-products .section-info-3 h2 {
+    font-family: "PT Sans", sans-serif; }
+  .section-info-products .section-info-3 .title-info-products {
     color: #090C02;
-    font-family: "Playfair Display", serif; }
+    font-family: "PT Sans", sans-serif; }
   .section-info-products .section-info-3 .bloco-txt {
     width: 50%;
     display: flex; }
-    .section-info-products .section-info-3 .bloco-txt div {
+    .section-info-products .section-info-3 .bloco-txt .text-area-products {
       padding-right: 60px;
       flex: 3 5 430px; }
   .section-info-products .section-info-3 .bloco-img {
     width: auto;
     display: flex;
     justify-content: center; }
-    .section-info-products .section-info-3 .bloco-img div {
+    .section-info-products .section-info-3 .bloco-img .img-area-products {
       width: 100%; }
-      .section-info-products .section-info-3 .bloco-img div img {
+      .section-info-products .section-info-3 .bloco-img .img-area-products .img-product-1 {
         width: 100%;
         margin-top: -75px;
         border-radius: 10px;
@@ -466,15 +466,15 @@ header h1::after {
       flex-direction: column; }
     .section-info-products .section-info-3 .bloco-txt {
       width: auto; }
-      .section-info-products .section-info-3 .bloco-txt p, .section-info-products .section-info-3 .bloco-txt h2 {
+      .section-info-products .section-info-3 .bloco-txt .p-section-products, .section-info-products .section-info-3 .bloco-txt .title-info-products {
         text-align: center;
         font-family: "PT Sans", sans-serif; }
-      .section-info-products .section-info-3 .bloco-txt div {
+      .section-info-products .section-info-3 .bloco-txt .text-area-products {
         padding: 0; }
     .section-info-products .section-info-3 .bloco-img {
       width: 50%;
       margin-bottom: 3%; }
-      .section-info-products .section-info-3 .bloco-img div img {
+      .section-info-products .section-info-3 .bloco-img .img-area-products .img-product-1 {
         margin-top: 0; } }
   .section-info-products .section-tripple-images {
     max-width: 1280px;
@@ -484,12 +484,15 @@ header h1::after {
     align-items: center;
     justify-content: center;
     margin-top: 3%; }
-    .section-info-products .section-tripple-images h2 {
+    .section-info-products .section-tripple-images .title-tripple-img {
       font-size: 30px;
       color: #090C02;
       font-family: "PT Sans", sans-serif;
       margin: 0; }
-    .section-info-products .section-tripple-images img {
+      @media (max-width: 1200px) {
+        .section-info-products .section-tripple-images .title-tripple-img {
+          margin: 7%; } }
+    .section-info-products .section-tripple-images .img-tripple-imgs {
       width: 100%;
       border-radius: 10px;
       box-shadow: 6px 4px 20px 4px #000000b3; }
@@ -504,7 +507,7 @@ header h1::after {
     .section-info-products .section-tripple-images .image-item {
       flex: 1 1 175px;
       margin: 10px; }
-    .section-info-products .section-tripple-images .image-item h3 {
+    .section-info-products .section-tripple-images .subtitle-tripple-imgs {
       font-size: 27px;
       color: #090C02;
       font-family: "PT Sans", sans-serif; }
@@ -515,7 +518,7 @@ header h1::after {
 
 .section-banner-parallax {
   box-shadow: 6px 4px 20px 4px #000000b3; }
-  .section-banner-parallax img {
+  .section-banner-parallax .img-section-parallax {
     border-radius: 120px;
     width: 26%;
     box-shadow: 6px 4px 20px 4px #000000b3; }
@@ -557,7 +560,7 @@ header h1::after {
   @media (max-width: 900px) {
     .section-banner-parallax .swiper-slide .title {
       font-size: 20px; }
-    .section-banner-parallax img {
+    .section-banner-parallax .img-section-parallax {
       width: 40%; } }
 
 .section-adress {
@@ -566,7 +569,7 @@ header h1::after {
   justify-content: center;
   margin: 2%;
   text-align: center; }
-  .section-adress h3 {
+  .section-adress .tittle-section-adress {
     text-decoration: underline;
     font-size: 14px;
     font-family: "PT Sans", sans-serif; }
@@ -579,14 +582,14 @@ header h1::after {
     align-items: center;
     justify-content: space-around;
     margin: auto; }
-  .form input {
+  .form .input-form {
     border: none;
     border-bottom: 2px solid #000;
     margin-bottom: 0%;
     padding-right: 120px;
     outline: none;
     background: none; }
-  .form button {
+  .form .btn-form {
     padding: 4px 37px 3px;
     background-color: #090C02;
     color: white;
@@ -598,7 +601,7 @@ header h1::after {
     .form .input-area {
       display: flex;
       flex-direction: column; }
-      .form .input-area input {
+      .form .input-area .input-form {
         margin-bottom: 2%; } }
 
 .footer {
@@ -617,13 +620,13 @@ header h1::after {
       display: flex;
       align-items: flex-start;
       flex-direction: column; }
-      .footer .container-footer .social-footer li {
+      .footer .container-footer .social-footer .li-footer {
         display: flex;
         align-items: center;
         margin-top: 5px; }
-        .footer .container-footer .social-footer li img {
+        .footer .container-footer .social-footer .li-footer .img-footer {
           width: 30px;
           margin-right: 7px; }
-    .footer .container-footer a {
+    .footer .container-footer .a-footer {
       color: #090C02;
       font-family: "PT Sans", sans-serif; }

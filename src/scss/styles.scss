@@ -106,17 +106,17 @@ header {
       font-family: $playfair;
       box-shadow: 6px 4px 20px 4px #000000b3;
 
-      p{
+      .p-section-1{
         text-align: left;
         font-size: 23px;
       }
-      div{
+      .text-area{
         width: 40%;
         padding: 15px;
         flex: 3 5 430px;
       }
 
-      button{
+      .button-section-1{
         margin-bottom: 4%;
       }
     }
@@ -159,14 +159,14 @@ header {
         .txt-info-1{
           width: auto;
 
-          div{
+          .text-area{
             width: auto;
             padding: 15px;
             flex: none;
             text-align: center;
             margin: auto;
           }
-          button{
+          .btn-section-1{
             margin-bottom: 5%;
           }
         }
@@ -268,12 +268,12 @@ header {
     align-items: center;
     font-family: $playfair;
 
-    p{
+    .p-section-2{
       text-align: left;
       font-size: 23px;
     }
 
-    div{
+    .text-area-section-2{
       width: 40%;
       padding: 15px;
       flex: 3 5 430px;
@@ -299,14 +299,14 @@ header {
         width: auto;
         padding: 50px;
 
-        div{
+        .text-area-section-2{
           width: auto;
           padding: 15px;
           flex: none;
           text-align: center;
           margin: auto;
         }
-        button{
+        .btn-section-2{
           margin-bottom: 5%;
         }
       }
@@ -340,7 +340,7 @@ header {
     margin: auto;  
 
   }
-  img{
+  .img-card{
     width: 95%;
     height: 360px;
     border-radius: 10px;
@@ -392,9 +392,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 7%;
+  margin: 12%;
 
-  h3{
+  .title-mid-page{
     text-align: center;
     font-family: $ptsans;
     font-size: 25px;
@@ -419,17 +419,17 @@ header {
         max-width: 1280px;
 
       }
-      p{
+      .p-section-products{
         text-align: left;
         font-size: 23px;
         color: #090C02;
-        font-family: $playfair;
+        font-family: $ptsans;
 
       }
       
-      h2{
+      .title-info-products{
         color: #090C02;
-        font-family: $playfair;
+        font-family: $ptsans;
 
       }
 
@@ -437,7 +437,7 @@ header {
       width: 50%;
       display: flex;
 
-      div{
+      .text-area-products{
         padding-right: 60px;
         flex: 3 5 430px;
       }
@@ -448,10 +448,10 @@ header {
       display: flex;
       justify-content: center;
 
-      div{
+      .img-area-products{
         width: 100%;
 
-        img{
+        .img-product-1{
           width: 100%;
           margin-top: -75px;
           border-radius: 10px;
@@ -467,9 +467,9 @@ header {
       }
       .bloco-txt{
         width: auto;
-        p, h2{text-align: center;font-family: $ptsans}
+        .p-section-products, .title-info-products{text-align: center;font-family: $ptsans}
 
-        div{
+        .text-area-products{
           padding: 0;
         }
       }
@@ -477,7 +477,11 @@ header {
 
         width: 50%;
         margin-bottom: 3%;
-        div img{ margin-top: 0;}
+        .img-area-products{
+
+          .img-product-1{ margin-top: 0;}
+
+        }
       }
     }
   }
@@ -493,15 +497,17 @@ header {
     justify-content: center;
     margin-top: 3%;
 
-      h2{
+      .title-tripple-img{
         font-size: 30px;
         color: #090C02;
         font-family: $ptsans;
         margin: 0;
+        @media (max-width: 1200px) { margin: 7%;}
+
   
       }
 
-      img{
+      .img-tripple-imgs{
         width: 100%;
         border-radius: 10px;
         box-shadow: 6px 4px 20px 4px #000000b3;
@@ -525,7 +531,7 @@ header {
       margin: 10px;
     }
     
-    .image-item h3 {
+    .subtitle-tripple-imgs {
       font-size: 27px;
       color: #090C02;
       font-family: $ptsans;
@@ -551,7 +557,7 @@ header {
 
   box-shadow: 6px 4px 20px 4px #000000b3;
     
-  img{
+  .img-section-parallax{
     border-radius: 120px;
     width: 26%;
     box-shadow: 6px 4px 20px 4px #000000b3;
@@ -616,7 +622,7 @@ header {
       
     }
     
-    img{
+    .img-section-parallax{
       width: 40%;
     }
   }
@@ -632,7 +638,7 @@ header {
   margin: 2%;
   text-align: center;
 
-  h3{
+  .tittle-section-adress{
     text-decoration: underline;
     font-size: 14px;
     font-family: $ptsans;
@@ -651,7 +657,7 @@ header {
       margin: auto;
   }
 
-      input{
+      .input-form{
         border: none;
         border-bottom: 2px solid #000;
         margin-bottom: 0%;
@@ -660,7 +666,7 @@ header {
         background: none;
       }
 
-      button{
+      .btn-form{
         padding: 4px 37px 3px;
         background-color: #090C02;
         color: white;
@@ -677,7 +683,7 @@ header {
           display: flex;
           flex-direction: column;
 
-          input{
+          .input-form{
             margin-bottom: 2%;
           }
         }
@@ -705,13 +711,13 @@ header {
       align-items: flex-start;
       flex-direction: column;
 
-      li{
+      .li-footer{
         display: flex;
         align-items: center;
         margin-top: 5px;
         
 
-        img{
+        .img-footer{
           width: 30px;
           margin-right: 7px;
         }
@@ -720,7 +726,7 @@ header {
 
       }   
     
-    a{
+    .a-footer{
       color: #090C02;
       font-family: $ptsans;
     }
