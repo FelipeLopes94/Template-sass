@@ -13,3 +13,7 @@
 ##  Compilacao do Sass feito com tasks de gulp
 
 ##  Para os slider, foi utlilizado o "Swiper", referenciado no link => https://swiperjs.com/get-started
+
+## Codigo Sass Aninhado conforme a ordem de elementos e classes do HTML
+
+## Media Queries da responsividade aninhada dentro das classes respectivas a necessidade de estilizacao
