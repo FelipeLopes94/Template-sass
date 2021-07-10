@@ -291,7 +291,7 @@ header h1::after {
       .section-info-1 .container-info-1 .txt-info-1 button {
         margin-bottom: 5%; }
     .section-info-1 .container-info-1 .img-info-1 {
-      width: 70%;
+      width: auto;
       margin-top: 5%; } }
 
 .section-img-cube {
