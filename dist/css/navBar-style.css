@@ -8,7 +8,8 @@
   .navbar .links-nav {
     display: flex; }
   .navbar .icons-nav {
-    float: right; }
+    float: right;
+    display: flex; }
     .navbar .icons-nav img {
       margin-right: 10px; }
 
