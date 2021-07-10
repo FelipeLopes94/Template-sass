@@ -457,7 +457,8 @@ header h1::after {
       .section-info-products .section-info-3 .bloco-img div img {
         width: 100%;
         margin-top: -75px;
-        border-radius: 10px; }
+        border-radius: 10px;
+        box-shadow: 6px 4px 20px 4px #000000b3; }
   @media (max-width: 1200px) {
     .section-info-products .section-info-3 .container-info-3 {
       flex-direction: column; }
@@ -488,7 +489,8 @@ header h1::after {
       margin: 0; }
     .section-info-products .section-tripple-images img {
       width: 100%;
-      border-radius: 10px; }
+      border-radius: 10px;
+      box-shadow: 6px 4px 20px 4px #000000b3; }
     .section-info-products .section-tripple-images .section-tripple-images h1 {
       font-size: 3em;
       margin: 0 10px 60px 10px;
@@ -511,7 +513,8 @@ header h1::after {
 
 .section-banner-parallax img {
   border-radius: 120px;
-  width: 26%; }
+  width: 26%;
+  box-shadow: 6px 4px 20px 4px #000000b3; }
 
 .section-banner-parallax .container-img-text {
   max-width: 1280px;
