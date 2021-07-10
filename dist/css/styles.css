@@ -627,6 +627,6 @@ header h1::after {
         .footer .container-footer .social-footer .li-footer .img-footer {
           width: 30px;
           margin-right: 7px; }
-    .footer .container-footer .a-footer {
+    .footer .container-footer a {
       color: #090C02;
       font-family: "PT Sans", sans-serif; }
